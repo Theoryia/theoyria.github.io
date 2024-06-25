@@ -71,11 +71,7 @@ export function queryTitleSize() {
 
 function changeHomeTitle(condition){
     if(condition == "shrink"){
-<<<<<<< HEAD:src/app/mainPage.mjs
-        console.log("SHinkr")
-=======
         console.log("Shinkings")
->>>>>>> 0faec02fa60a6b51f93dde77817761dc7343d567:app/mainPage.mjs
         setTimeout(() => {title.textContent = "Theo Kinder"}, 100)
         setTimeout(() => {title.textContent = "Theo Kinde_"}, 200)
         setTimeout(() => {title.textContent = "The_ Kinde"}, 300)
@@ -88,11 +84,7 @@ function changeHomeTitle(condition){
         setTimeout(() => {title.textContent = "T K_"}, 1000)
         setTimeout(() => {title.textContent = "T K"}, 1100)
     }else if (condition == "regen"){
-<<<<<<< HEAD:src/app/mainPage.mjs
-        console.log("Longer")
-=======
         console.log("Expanding")
->>>>>>> 0faec02fa60a6b51f93dde77817761dc7343d567:app/mainPage.mjs
         setTimeout(() => {title.textContent = "T K"}, 100)
         setTimeout(() => {title.textContent = "T K_"}, 200)
         setTimeout(() => {title.textContent = "T_ Ki"}, 300)
