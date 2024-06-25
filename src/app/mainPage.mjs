@@ -22,7 +22,7 @@ function closeNav() {
     const url = window.location.toString();
     console.log(url)
     console.log(url.includes("index"))
-        if (url.includes("index") == true){
+        if (url.includes("https://theokinder.com/") == true){
             console.log("index")
             changeHomeTitle(condition) //TODO change name of file
         }else if (url.includes("contact") == true) {
