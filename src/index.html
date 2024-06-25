@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./app/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Yatra+One&display=swap" rel="stylesheet">
+
+  <title>Theo Kinder | Home</title>
+<div class="fullnav">
+  <section id="main" class="nav">
+    <h1 id="title" class="title">Theo Kinder</h1>
+
+    <div class="navlink">
+      <a class="topnav" href="https://github.com/Theoryia" id="work" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="topnav" href="https://github.com/Theoryia?tab=repositories" id="stuff" target="_blank" rel="noopener noreferrer">Projects</a>
+      <a class="topnav contactlink" href="/contact.html" id="contact" target="_blank" rel="noopener noreferrer">Contact</a>
+      <input
+        type="image"
+        id="dropdown"
+        class="hidden dropdownBtn"
+        onclick="openNav()"
+        src="/assets/Gmenu_FILL0_wght400_GRAD0_opsz40.png"
+      />
+    </div>
+  </section>
+
+  <section class="para">
+    <h3>software engineering bsc hons.</h3>
+  </section>
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="https://github.com/Theoryia">GitHub</a>
+    <a href="https://github.com/Theoryia?tab=repositories">Projects</a>
+    <a href="/contact.html" class="contactlink">Contact</a>
+  </div>
+</div>  
+<div id="content">
+  <section id="intro" class="content">
+    <p>Hello! My name is Theo, I'm a 3rd year software engineering student at the University of Portsmouth.  </p>
+  </section>
+
+  <section class="content projectShow">
+    <h2 class="contentTitle">Projects</h2>
+  <div class="workContainer">
+    <div class="item">
+      <a href="https://github.com/Theoryia/sentiment-analysis"><h3 class="workh3">Textual Sentiment Analysis</h3></a>
+      <!-- <a href="https://github.com/Theoryia/eyetracking-reaction"><img alt="Reaction Time Graph" src="../assets/reaction_time.png"></a> -->
+    </div>
+    <div class="item">
+      <h3 class="workh3">Web-Canvas Hangman</h3>
+      <!-- <a href="#"><img alt="Hangman Screenshot" src="../assets/hangman_photo.PNG"></a> -->
+    </div>
+    <div class="item">
+      <h3 class="workh3">US Gun Data Visualisations</h3>
+      <!-- <a href="#"><img alt="US Gun Data Visualisation" src="/assets/usgundata.png"></a> -->
+    </div>
+    <div class="item">
+      <a href="https://github.com/Theoryia/eyetracking-reaction"><h3 class="workh3">Eye Tracking Reaction Time Script</h3></a>
+      <!-- <a href="https://github.com/Theoryia/eyetracking-reaction"><img alt="Reaction Time Graph" src="../assets/reaction_time.png"></a> -->
+    </div>
+    <div class="item">
+      <h3 class="workh3">Collatz Conjecture Visualisation</h3>
+      <!-- <a href="https://github.com/Theoryia/CollatzPlotter"><img alt="Hangman Screenshot" src="../assets/collatz.png"></a> -->
+    </div>
+    <!-- <img src="../assets/18015-MC20BluInfinito-scaled-e1666008987698.jpg" width="500" height="auto"> -->
+  </div>  
+  </section>
+  <div id="nextAbout" class="content">
+    <h2 class="contentTitle">Some projects are temporarily unavailable because they're recent university assignments, sorry :( <br><br> More stuff soon ! </h2>
+  </div>
+</div>
+
+  <script src="./app/main.mjs" type="module"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginRight = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginRight = "0";
+    }
+  </script>
+</html>

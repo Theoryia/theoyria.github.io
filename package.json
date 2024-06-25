@@ -1,0 +1,23 @@
+{
+  "name": "theory-1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "./app/main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theoryia/theory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theoryia/theory/issues"
+  },
+  "homepage": "https://github.com/Theoryia/theory#readme",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
