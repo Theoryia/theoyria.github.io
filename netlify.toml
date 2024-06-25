@@ -1,0 +1,19 @@
+[build]
+  # Directory to change into before starting the build
+  base = "src"
+  # Directory that contains the application's source code
+  publish = "src"
+  # Directory to look for functions
+  functions = "netlify/functions"
+
+[functions]
+  # Directory to look for functions
+  directory = "netlify/functions"
+  # Node version to use (make sure it matches your local version)
+  node_bundler = "esbuild"
+
+[[redirects]]
+  # Redirect all routes to the serverless function
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
