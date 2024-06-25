@@ -7,8 +7,17 @@ html {
 
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.itempara {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
+}
 .fullnav {
   background-color: #fbfaf2;
   padding-top: 0.5rem;
@@ -26,8 +35,8 @@ body {
 }
 .contentTitle {
   text-align: center;
-  margin-top: 0.5%;
-  font-size: 1.2rem;
+  margin-top: 5px;
+  font-size: 2.2rem;
 }
 #nextAbout {
   flex: 1 0 200px;
@@ -42,21 +51,31 @@ body {
 
 @media (max-width: 600px) {
   .workContainer {
-    flex-direction: column;
+      flex-direction: column; /* Switch to vertical layout */
+  }
+  .item {
+      width: 100%; /* Full width for smaller screens */
+      max-width: 500px; /* Maximum width */
+      margin: 0 auto 5px; /* Center items and add space between them */
   }
 }
 
 .workContainer {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 15%;
+  justify-content: center; /* Center items within the container */
+  gap: 5px; /* Adds space between items */
+  padding: 20px;
+  
+  margin: 0 auto; /* Center the container */
 }
 
 .item {
-  position: relative;
-  overflow: hidden;
-  
-
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center;
+  width: 45%; /* Default width */
+  min-width: 300px; /* Minimum width to prevent being too skinny */
 }
 
 #collatz {
@@ -177,6 +196,7 @@ body {
 }
 
 #intro {
+  padding-left: 10px;
   font-size: 175%;
   color: #dcd5c7;
   background-color: #4f5d2f;

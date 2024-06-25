@@ -3,9 +3,7 @@
   functions = "netlify/functions"
 
 [functions]
-  # Directory to look for functions
   directory = "netlify/functions"
-  # Node version to use (make sure it matches your local version)
   node_bundler = "esbuild"
 
 [[redirects]]
