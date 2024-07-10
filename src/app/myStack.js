@@ -10,7 +10,7 @@ function createVisualization(data) {
         .attr("viewBox", `0 0 ${width} ${height}`)
         .style("width", "100vw")
         .style("height", "100vh")
-        .style("background", "#FEFEE3")
+        .style("background", "#fbfaf2")
         .style("cursor", "pointer");
 
     // Color scale
