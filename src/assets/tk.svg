@@ -1,13 +1,13 @@
 <svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_93_3)">
 <rect width="144" height="144" fill="white"/>
-<rect width="144" height="144" fill="#37974C"/>
+<rect width="144" height="144" fill="#4F5D2F"/>
 <g filter="url(#filter0_d_93_3)">
-<path d="M46.824 55H30.912L31.848 49.6H70.584L69.648 55H53.664L45.744 100H38.904L46.824 55ZM101.37 69.112C103.866 69.592 105.786 70.384 107.13 71.488C108.522 72.592 109.53 74.008 110.154 75.736C110.826 77.464 111.354 79.768 111.738 82.648L113.97 100H107.13L104.97 83.296C104.682 81.184 104.322 79.576 103.89 78.472C103.506 77.368 102.69 76.432 101.442 75.664C100.242 74.848 98.3702 74.32 95.8262 74.08L84.0902 84.592L81.3542 100H74.5142L83.3702 49.6H90.2102L85.5302 76.24L115.05 49.6H123.258L101.37 69.112Z" fill="black"/>
+<path d="M39.824 55H23.912L24.848 49.6H63.584L62.648 55H46.664L38.744 100H31.904L39.824 55ZM94.3702 69.112C96.8662 69.592 98.7862 70.384 100.13 71.488C101.522 72.592 102.53 74.008 103.154 75.736C103.826 77.464 104.354 79.768 104.738 82.648L106.97 100H100.13L97.9702 83.296C97.6822 81.184 97.3222 79.576 96.8902 78.472C96.5062 77.368 95.6902 76.432 94.4422 75.664C93.2422 74.848 91.3702 74.32 88.8262 74.08L77.0902 84.592L74.3542 100H67.5142L76.3702 49.6H83.2102L78.5302 76.24L108.05 49.6H116.258L94.3702 69.112Z" fill="black"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d_93_3" x="26.912" y="49.6" width="100.346" height="58.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_93_3" x="19.912" y="49.6" width="100.346" height="58.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
