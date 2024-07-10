@@ -1,0 +1,99 @@
+{
+    "name": "root",
+    "children": [
+      {
+        "name": "Python",
+        "children": [
+          { "name": "Pandas", "value": 3000 },
+          { "name": "Numpy", "value": 3000 },
+          { "name": "scikit-learn", "value": 2000 },
+          { "name": "TensorFlow", "value": 2000 },
+          { "name": "Matpolotlib", "value": 2000 },
+          { "name": "Scrapy", "value": 2000 },
+          { "name": "PyTorch", "value": 2000 },
+          { "name": "Plotly", "value": 2000 },
+          { "name": "OpenCV", "value": 3000 },
+          { "name": "Flask", "value": 2000 },
+          { "name": "Django", "value": 2000 },
+          { "name": "OpenCV", "value": 2000 },
+          { "name": "Seaborn", "value": 2000 }
+
+
+        ]
+      },
+      {
+        "name": "Javascript",
+        "children": [
+          { "name": "Next.js", "value": 2000 }, 
+          { "name": "vATC Forecast", "value": 2000 },
+          { "name": "My Portfolio", "value": 2000 },
+          { "name": "Axios", "value": 2000 },
+          { "name": "Express.js", "value": 2000 },
+          { "name": "Puppeteer", "value": 2000 },
+          { "name": "Node.js", "value": 3000 },
+          { "name": "React", "value": 2000 },
+          { "name": "Sequelizer", "value": 2000 },
+          { "name": "D3.js", "value": 2000 },
+          { "name": "Leaflet", "value": 2000 },
+          { "name": "React", "value": 2000 }
+        ]
+      },
+      {
+        "name": "Databases",
+        "children": [
+          { "name": "PostgreSQL", "value": 2000 },
+          { "name": "MySQL", "value": 2000 },
+          { "name": "MongoDB", "value": 2000 },
+          { "name": "SQLite3", "value": 2000 }
+        ]
+      },
+      {
+        "name": "Hardware",
+        "children": [
+          { "name": "PC Building", "value": 2000 },
+          { "name": "Arduino IoT", "value": 2000 },
+          { "name": "Raspberry Pi", "value": 2000 },
+          { "name": "", "value": 2000 }
+        ]
+      },
+      {
+        "name": "Cloud",
+        "children": [
+          { "name": "AWS Lightsail", "value": 2000 },
+          { "name": "Azure", "value": 2000 },
+          { "name": "GCP", "value": 2000 }
+        ]
+      },
+      {
+        "name": "R",
+        "children": [
+          {
+            "name": "tidyverse family",
+            "children": [
+              
+              { "name": "ggplot2", "value": 1000 },
+              { "name": "dplyr", "value": 1000 },
+              { "name": "Shiny", "value": 1000 },
+              { "name": "tidyr", "value": 1000 },
+              { "name": "lubridate", "value": 1000 },
+              { "name": "tibble", "value": 1000 },
+              { "name": "readr", "value": 1000 }
+            ]
+          },
+          { "name": "Leaflet", "value": 1200 },
+          { "name": "jsonlite", "value": 1200 },
+          { "name": "ggplot2", "value": 1200 }
+        ]
+      },
+      {
+        "name": "Misc.",
+        "children": [
+          { "name": "WEKA", "value": 2000 },
+          { "name": "Git", "value": 2000 },
+          { "name": "Figma", "value": 2000 },
+          { "name": "MS Excel", "value": 2000 }
+        ]
+      }
+    ]
+  }
+  

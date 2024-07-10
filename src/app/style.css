@@ -233,18 +233,20 @@ body {
 }
 
 .topnav {
+  display: flex; /* Ensures flex layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: flex-end; /* Aligns items to the right */
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 0.2vw;
   transition: background-size cubic-bezier(0, 0.5, 0, 1) 0.3s;
-  color: #161212; /*change*/
-  font-size: 40px;
-  padding-left: 3%;
-  padding-right: 3%;
-  justify-content: flex-end;
-  height: 70%;
+  color: #161212; /* Text color */
+  font-size: 40px; /* Font size for the text */
+  padding: 1rem 3%; /* Padding for top/bottom and left/right */
+  width: 100%; /* Ensures the nav spans full width */
+  box-sizing: border-box; /* Ensures padding is included in width/height */
 }
 
 a:hover,
