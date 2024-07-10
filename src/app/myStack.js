@@ -83,13 +83,13 @@ function createVisualization(data) {
             .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
 
+    // Debounced resize event
+    let resizeTimeout;
     window.addEventListener('resize', () => {
-        width = window.innerWidth;
-        height = window.innerHeight;
-        svg.attr("width", width)
-            .attr("height", height)
-            .attr("viewBox", `0 0 ${width} ${height}`);
-        zoomTo([focus.x, focus.y, focus.r * 2]);
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            window.location.reload();
+        }, 500);
     });
 }
 
