@@ -88,7 +88,7 @@ function createVisualization(data) {
     window.addEventListener('resize', () => {
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
-            document.reload();
+            document.location.reload();
         }, 500);
     });
 }
